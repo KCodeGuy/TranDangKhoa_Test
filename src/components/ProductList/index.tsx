@@ -100,7 +100,7 @@ export const ProductList = () => {
           )
         )}
 
-        {!isLoading && !hasNextPage && !isFetchingNextPage && (
+        {!isLoading && !hasNextPage && !isFetchingNextPage && !data && (
           <p className="product-message">Không có sản phẩm</p>
         )}
       </div>
